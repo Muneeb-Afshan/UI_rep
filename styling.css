@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+body{
+    font-family: sans-serif;
+    /* background-color: rgb(53, 53, 124); */
+    /* color: white; */
+    line-height: 1.8;
+    max-width : 400px;
+    display: block;
+    margin: auto;
+    
+
+}
+
+h1{
+    font-size: 50px;
+}
+a{
+    color:moccasin;
+}
+.container{
+    /* background : white; */
+    background-image : url(../img/salad-pomegranate-eggs-tomatoes-fresh.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family : 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:oldlace;
+    margin: 30px auto;
+    max-width: 350px;
+    padding : 20px;
+    align-self: center;
+    text-align: center;
+    /* margin-bottom : 20px; */
+    
+    
+}
+
+div {
+    text-align: left;
+    margin: 20px
+}
+
+button {
+    display: block;
+    width:60%;
+    padding:10px;
+    border: none solid;
+    font-size:14px;
+    margin-top: 20px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: indianred;
+}
+#terms{
+    font-family :Arial, Helvetica, sans-serif;
+    font-size : 12px;
+}
+
+#login{
+    font-family :Arial, Helvetica, sans-serif;
+    font-size : 13px;
+    margin-left: 45px;
+  
+}
+
+#login p a{
+    color : rgb(198, 209, 44);
+}
+
+/* h1{
+    font-size:150px;
+    color:blue; 
+} */
